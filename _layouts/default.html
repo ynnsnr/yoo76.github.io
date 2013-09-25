@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html style="margin-top: 0 !important">
+<head>
+  <title>{{ page.title }}</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/main.css" type="text/css" />
+</head>
+<body>
+  <div class="top-bar"></div>
+
+  <div id="intro">
+    <div class="bg1"></div>
+    <nav>
+      {% include nav.html logo=true %}
+    </nav>
+    {% include title.html %}
+  </div>
+
+  <div class="dotted-bar"></div>
+
+  <div class="nav2">
+    {% include nav.html %}
+  </div>
+
+  {% include about.html %}
+
+  <div class="dotted-bar2">
+    <a href="#intro"><span class="top"></span></a>
+  </div>
+
+  {% include music_for_picture.html %}
+
+  {% include contact.html %}
+
+  <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  <script type='text/javascript' src='/js/jquery.extensions.js'></script>
+</body>
+</html>
