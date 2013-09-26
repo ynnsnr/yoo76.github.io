@@ -843,7 +843,7 @@ ul.check li {
 ================================================== */
 
 .top-bar {
-  background: #D14545;
+  background: #FFA640;
   width: 100%;
   height: 2px;
   position: fixed;
@@ -963,6 +963,13 @@ span.logotext {
   border: 2px solid white;
   padding: 0.4em;
   border-radius: 50%;
+  transition:.5s;
+}
+
+.social  a:hover span {
+  color: #FFA640;
+  border-color: #FFA640;
+  transition:.5s;
 }
 
 .social .smaller span {
