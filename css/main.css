@@ -447,13 +447,19 @@ span.line4 {
     text-align: center;
 }
 
-.heading img {
-    background: none repeat scroll 0 0 #FFFFFF;
-    margin-left: -5px;
-    margin-right: -5px;
-    padding: 0 15px;
-    position: relative;
-    top: -4px;
+.star {
+  font-size: 24px;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0 15px;
+  position: relative;
+  top: -4px;
+  background-color: white;
+}
+
+.star.white {
+  color: white;
+  background-color: transparent;
 }
 
 .heading h2 {
@@ -1321,7 +1327,7 @@ p.line2nd {
 
 #contact span.line, #contact span.line2 {
   background: #fff;
-  width: 320px;
+  width: 280px;
 }
 
 #contact span.line2 {
