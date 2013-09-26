@@ -803,121 +803,6 @@ p.quoter {
     padding-right: 0;
 }
 
-.twitter_small {
-  width:46px;
-  height:46px;
-  float:left;
-  margin-top: -8px;
-  background:url(../img/bg-twitter.png) no-repeat left top;
-}
-
-.twitter_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:46px;
-  height:46px;
-  display:block;
-}
-
-.twitter2_small {
-  width:16px;
-  height:16px;
-  float:left;
-  margin: 5px 0 15px 15px;
-  background:url(../img/bg-twitter2.png) no-repeat left top;
-}
-
-.twitter2_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:16px;
-  height:16px;
-  display:block;
-}
-.twitter2_small a:hover {
-  background:url(../img/bg-twitter2Hover.png) no-repeat left top;
-}
-
-.facebook_small {
-  width:16px;
-  height:16px;
-  float:left;
-  margin: 5px 0 5px 15px;
-  background:url(../img/bg-facebook.png) no-repeat left top;
-}
-
-.facebook_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:16px;
-  height:16px;
-  display:block;
-}
-
-.facebook_small a:hover {
-  background:url(../img/bg-facebookHover.png) no-repeat left top;
-}
-
-.dribble_small {
-  width:16px;
-  height:16px;
-  float:left;
-  margin: 5px 0 15px 15px;
-  background:url(../img/bg-dribble.png) no-repeat left top;
-}
-
-.dribble_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:16px;
-  height:16px;
-  display:block;
-}
-
-.dribble_small a:hover {
-  background:url(../img/bg-dribbleHover.png) no-repeat left top;
-}
-
-.flickr_small {
-  width:16px;
-  height:16px;
-  float:left;
-  margin: 5px 0 15px 15px;
-  background:url(../img/bg-flickr.png) no-repeat left top;
-}
-
-.flickr_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:16px;
-  height:16px;
-  display:block;
-}
-
-.flickr_small a:hover {
-  background:url(../img/bg-flickrHover.png) no-repeat left top;
-}
-
-.vimeo_small {
-  width:17px;
-  height:16px;
-  float:left;
-  margin: 5px 0 15px 15px;
-  background:url(../img/bg-vimeo.png) no-repeat left top;
-}
-
-.vimeo_small a {
-  text-indent:-9000px;
-  text-decoration:none;
-  width:17px;
-  height:16px;
-  display:block;
-}
-
-.vimeo_small a:hover {
-  background:url(../img/bg-vimeoHover.png) no-repeat left top;
-}
-
 ul.list {
   display:block;
   position:relative;
@@ -1065,40 +950,20 @@ span.logotext {
   margin: 0 8px 0 8px;
 }
 
-.facebook {
-  background: url(../img/icn-facebook.png) no-repeat 0 0;
-  width: 50px;
-  height: 51px;
+.social span {
   display: inline-block;
+  font-size: 2em;
+  color: white;
+  border: 2px solid white;
+  padding: 0.4em;
+  border-radius: 50%;
 }
 
-.twitter {
-  background: url(../img/icn-twitter.png) no-repeat 0 0;
-  width: 50px;
-  height: 51px;
-  display: inline-block;
+.social .smaller span {
+  font-size: 1.8em;
+  padding: 0.5em;
 }
 
-.gplus {
-  background: url(../img/icn-gplus.png) no-repeat 0 0;
-  width: 50px;
-  height: 51px;
-  display: inline-block;
-}
-
-.dribbble {
-  background: url(../img/icn-dribbble.png) no-repeat 0 0;
-  width: 51px;
-  height: 51px;
-  display: inline-block;
-}
-
-.linkedin {
-  background: url(../img/icn-linkedin.png) no-repeat 0 0;
-  width: 51px;
-  height: 51px;
-  display: inline-block;
-}
 
 .sprite {
   -webkit-transition-duration: 0.2s;
