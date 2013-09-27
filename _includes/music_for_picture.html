@@ -15,12 +15,24 @@
     <div class="container">
       <div class="two-thirds column">
         <div class="embed-container">
-          <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          {% if video.youtube_id %}
+            <iframe src="//www.youtube.com/embed/{{ video.youtube_id }}?rel=0&amp;showinfo=0&amp;color=white" frameborder="0" allowfullscreen></iframe>
+          {% else %}
+            {% if video.vimeo_id %}
+              <iframe src="//player.vimeo.com/video/{{ video.vimeo_id }}?title=0&amp;portrait=0&amp;byline=0&amp;color=FFA640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            {% endif %}
+          {% endif %}
         </div>
       </div>
       <div class="one-third column">
         <p class="proj-name">
-          <a href="http://www.youtube.com/watch?v={{ video.youtube_id }}" target="_blank">{{ video.name }}</a>
+          {% if video.youtube_id %}
+            <a href="http://www.youtube.com/watch?v={{ video.youtube_id }}" target="_blank">{{ video.name }}</a>
+          {% else %}
+            {% if video.vimeo_id %}
+              <a href="http://vimeo.com/{{ video.vimeo_id }}" target="_blank">{{ video.name }}</a>
+            {% endif %}
+          {% endif %}
         </p>
         <div class="proj-desc">{{ video.content }}</div>
       </div>
