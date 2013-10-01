@@ -52,8 +52,7 @@
 ================================================== */
   body {
     color: #444;
-    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
  }
 
 
@@ -1359,7 +1358,7 @@ p.line2nd {
 .contact-info p {
   margin-bottom: 25px;
   line-height: 25px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .contact-info i {
@@ -1375,7 +1374,7 @@ p.line2nd {
   text-align: center;
   position: relative;
   z-index: 300;
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 0;
   padding: 10px 0 10px 0;
 }
