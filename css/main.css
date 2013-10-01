@@ -1077,22 +1077,10 @@ span.logotext {
   margin-top: 40px;
 }
 
-
-.portfolio img {
-  -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-  -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-box-shadow;
-  -moz-transition-property: -moz-box-shadow;
-  -o-transition-property: -o-box-shadow;
-  transition-property: box-shadow;
+.portfolio .portfolio-element {
+  margin-bottom: 2em;
 }
 
-.portfolio img:hover {
-  -webkit-box-shadow:  0px 0px 0px 4px #fcd996;
-  box-shadow:  0px 0px 0px 4px #fcd996;
-}
 
 .proj-name {
   border-bottom: 1px solid #bebebe;
@@ -1364,17 +1352,21 @@ p.line2nd {
   margin-top: 20px;
 }
 
-.contact-info p {
-  margin-bottom: 5px;
-  line-height: 25px;
+.contact-info, .contact-info h3, .contact-info a {
   color: #fff;
+}
+
+.contact-info p {
+  margin-bottom: 25px;
+  line-height: 25px;
   font-size: 14px;
 }
 
-.contact-info img {
+.contact-info i {
   margin-left: 6px;
   margin-right: 10px;
   vertical-align: middle;
+  font-size: 24px;
 }
 
 
@@ -1486,10 +1478,6 @@ p.line2nd {
     }
 
 
-    .portfolio {
-      text-align: center;
-    }
-
 
     .experience h3 {
       margin-top: 40px;
@@ -1521,6 +1509,10 @@ p.line2nd {
     nav ul li {
       line-height: 45px;
     }
+
+    .proj-name {
+      margin-top: 1em;
+    }
   }
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
@@ -1540,6 +1532,10 @@ p.line2nd {
 
     nav ul li {
       line-height: 45px;
+    }
+
+    .proj-name {
+      margin-top: 1em;
     }
 
     #intro {
@@ -1862,7 +1858,6 @@ p.line2nd {
   padding-top: 30px; /* IE6 workaround*/
   height: 0;
   overflow: hidden;
-  margin-bottom: 35px;
 }
 .embed-container iframe,
 .embed-container object,
@@ -1872,4 +1867,17 @@ p.line2nd {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.pull-right {
+  float: right;
+}
+
+.about-list {
+  list-style-type: disc;
+  margin-left: 20px;
 }
