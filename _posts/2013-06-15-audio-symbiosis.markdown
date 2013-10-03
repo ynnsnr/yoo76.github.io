@@ -4,4 +4,4 @@ youtube_id: 0QsmwNNp2_k
 name: Audi Talents Awards - Symbiosis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, explicabo eius omnis labore delectus provident mollitia aliquam perferendis repellendus iure soluta quam doloribus pariatur ducimus obcaecati! Est dolore voluptatem ipsam?
+Thats our proposition for the Audi Talents Awards 2013 contest.

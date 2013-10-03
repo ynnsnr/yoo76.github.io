@@ -4,4 +4,10 @@ vimeo_id: 53973321
 name: Kate (by Emeraude Nicolas)
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, obcaecati aperiam doloribus molestiae ipsa libero. Earum, nam, dolor quos saepe officiis aspernatur sed deleniti accusamus autem aut necessitatibus ea. Quidem.
+Photographer: Marjolijn De Groot
+<br>Art Director: <a href="http://www.emeraude-nicolas.fr/">Emeraude Nicolas</a>
+<br>Editor: Dave Berton
+<br>Model: Kate Welsh @ Major
+<br>Stylist: Vanessa Naudin
+<br>Make up: Catherine Dargenton
+<br>Music: Faggy Dux
