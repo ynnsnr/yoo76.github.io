@@ -4,4 +4,4 @@ youtube_id: pnSGS9OzYL0
 name: Vovox Make the score! contest - Getting Ready
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, ducimus, tenetur, non, adipisci excepturi distinctio at expedita obcaecati rerum cum voluptate dolores rem saepe aut reprehenderit labore facere aperiam libero.
+This is another music we made for the Vovox Make the score! contest. We worked with Kabaret, a recent Electro/Charleston band. You can hear more of their stuff <a href="http://www.kabaretmusic.fr/">here</a> and follow their upcoming events. A must see on stage!
