@@ -4,4 +4,4 @@ youtube_id: 0QsmwNNp2_k
 name: Audi Talents Awards - Symbiosis
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, explicabo eius omnis labore delectus provident mollitia aliquam perferendis repellendus iure soluta quam doloribus pariatur ducimus obcaecati! Est dolore voluptatem ipsam?
+Our vision of the first corporate video from the Audi Talent Awards 2013. Our purposal wasn't selected, despite of hard work and many efforts. But we plan to go further for the next edition!
