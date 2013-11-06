@@ -4,4 +4,4 @@ soundcloud_id: 118559648
 name: Busy P - This Song (Faggy Dux Remix)
 ---
 
-We've just submitted our new remix of Busy P - "This Song". Votes are closed, we're waiting for the results!
+Our submission for the Busy P - "This Song" remix contest. The track wasn't choosed, but we expect future to give it another chance!
